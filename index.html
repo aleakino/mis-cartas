@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Cartas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Decorativos flotantes -->
+  <div class="deco deco-1"></div>
+  <div class="deco deco-2"></div>
+  <div class="deco deco-3"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Un <span>Lugar</span> <span>Seguro</span></div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Para<br><em>el amor</em> de mi vida</h1>
+    <p>Hola amor, este es mi regalo de cumpleaños para ti, aqui te escribire cartas cada cierto tiempo, como no se expresar bien lo que siento aun, ire mejorando mis cartas con el tiempo. Todo esto esta hecho con mucho amor.</p>
+  </section>
+
+  <!-- Grid de cartas -->
+  <main class="cartas-grid" id="grid"></main>
+
+  <!-- Modal: leer carta -->
+  <div class="modal-overlay" id="modalLeer">
+    <div class="modal modal-leer">
+      <div class="modal-header">
+        <button class="btn-cerrar" onclick="cerrarLeer()">✕</button>
+      </div>
+      <div class="carta-encabezado" id="leerPara"></div>
+      <h2 id="leerTitulo"></h2>
+      <div class="separador" id="leerSep"></div>
+      <div class="cuerpo" id="leerCuerpo"></div>
+      <div class="firma" id="leerFirma"></div>
+      <div class="modal-actions">
+        <button class="btn-cancelar" onclick="cerrarLeer()">Cerrar</button>
+        <button class="btn-compartir" onclick="compartirCarta()">🔗 Copiar texto</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="cartas.js"></script>
+</body>
+</html>
