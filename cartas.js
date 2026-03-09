@@ -31,7 +31,7 @@ const cartas = [
     para: "Mi amor",
     titulo: "Dos Oruguitas",
     cuerpo:"",
-    youtube: "u656hLPQD6Q",
+    youtube: "x3Dl8K6RBcc",
     firma: "Javier",
     fecha: "11 de marzo de 2026"
   }
