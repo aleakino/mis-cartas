@@ -34,6 +34,15 @@ const cartas = [
     youtube: "x3Dl8K6RBcc",
     firma: "Javier",
     fecha: "11 de marzo de 2026"
+  },
+  {
+    id: "4",
+    color: "lavender",
+    para: "Gabi jr",
+    titulo: "Lo que siento por ti",
+    cuerpo: "Me preguntaron:\n\n‑¿Y cómo es ella?\n\nY yo les respondí:\n\n‑Ella es como un cúmulo de galaxias: una presencia masiva, compleja y llena de energía. Es irresistible por su propia gravedad; de esas que emiten mucha a pesar de su oscuridad. Parte de su esencia es invisible, profunda y difícil de detectar a simple vista. Solo con los ojos del alma logras ver más allá. Es capaz de distorsionar la realidad con tan solo su sonrisa. Es una oportunidad única en la vida. De esas mujeres que te hacen sentir que has ganado la lotería, que te quitan el sueño y te obligan a viajar a través del espacio‑tiempo.",
+    firma: "Javier",
+    fecha: "11 de marzo de 2026"
   }
 ];
 
