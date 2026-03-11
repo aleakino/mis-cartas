@@ -144,3 +144,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   renderGrid();
 });
+
+function avisarCarta() {
+  fetch("https://formspree.io/f/mdawgzpy", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ message: "✦ Se publicó una carta nueva en Mis Cartas" })
+  }).then(() => toast('✉️ Aviso enviado'));
+}
