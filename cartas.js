@@ -52,6 +52,15 @@ const cartas = [
     cuerpo: "Ultimamente he pensado que deberías estar mas orgullosa de ti misma, por la forma en que has enfrentado los ultimas años, desde las batallas silenciosas que has librado, hasta los momentos donde has sentido que no puedes más, incluso los momentos donde has caido, pero aun asi has decidido levantarte una vez mas y mirar hacia delante.\n\n Eres una guerrera. \n\n Así que Gabi por hazte un favor, celebra tu fortaleza.",
     firma: "Tu futuro esposo",
     fecha: "12 de marzo de 2026"
+  },
+  {
+    id: "6",
+    color: "coral",
+    para: "Mi futura esposa",
+    titulo: "Nuestro Juramento",
+    cuerpo: "Querida Gabi,\n\nLa distancia muchas veces pesa, porque hay días en los que simplemente quisiera abrazarte, mirarte a los ojos o caminar a tu lado sin tener que despedirme por una pantalla o por una llamada. Pero también sé que cuando el amor es verdadero, ni la distancia ni el tiempo pueden romper lo que dos corazones sienten. No me canso de extrañarte, de pensarte, de sentir tantas cosas cuando miro tu nombre, tu cara, tu cuerpo, de sentir paz cuando escucho tu voz. Y aunque no siempre es fácil, cada día contigo confirma que todo vale la pena. Gracias por llegar a mi vida, por quedarte a pesar de mis defectos, por hacerme sentir amado, incluso desde la distancia, siento el calor que me brinda tu amor. Gracias por enseñarme que el amor también puede ser paciencia, esperanza y ganas de luchar por lo que sentimos. Cuando cierro los ojos imagino el momento en que ya no tengamos que despedirnos cuando la distancia solo sea un recuerdo y pueda abrazarte todo lo que hoy extraño. Sé que ese día llegará y hará que todo el tiempo que hemos pasado lejos valdrán aún más la pena. Porque amar así, aunque a veces duela, es la cosa más linda que me ha pasado en mi vida. Te amo, hoy, a la distancia...\n\nY por cada día que nos espera juntos.",
+    firma: "Tu futuro esposo",
+    fecha: "13 de marzo de 2026"
   }
 ];
 
