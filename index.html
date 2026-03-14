@@ -9,10 +9,11 @@
 </head>
 <body>
 
-  <!-- Decorativos flotantes -->
-  <div class="deco deco-1"></div>
-  <div class="deco deco-2"></div>
-  <div class="deco deco-3"></div>
+  <!-- Fondo nocturno -->
+  <div class="cielo"></div>
+  <div class="aurora"></div>
+  <div class="luna"></div>
+  <canvas id="estrellas"></canvas>
 
   <!-- Header -->
   <header>
@@ -48,9 +49,11 @@
   <!-- Toast -->
   <div class="toast" id="toast"></div>
 
+  <!-- Botón secreto -->
   <div style="text-align:center; padding: 2rem">
-  <button onclick="avisarCarta()" style="opacity:0.1; font-size:0.7rem; background:none; border:none; cursor:pointer">✦</button>
-</div>
+    <button onclick="avisarCarta()" style="opacity:0.1; font-size:0.7rem; background:none; border:none; cursor:pointer">✦</button>
+  </div>
+
   <script src="cartas.js"></script>
 </body>
 </html>
