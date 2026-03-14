@@ -57,7 +57,7 @@ const cartas = [
     id: "6",
     color: "coral",
     para: "Mi futura esposa",
-    titulo: "Esos dias",
+    titulo: "Nuestro Juramento",
     cuerpo: "Querida Gabi,\n\nLa distancia muchas veces pesa, porque hay días en los que simplemente quisiera abrazarte, mirarte a los ojos o caminar a tu lado sin tener que despedirme por una pantalla o por una llamada. Pero también sé que cuando el amor es verdadero, ni la distancia ni el tiempo pueden romper lo que dos corazones sienten. No me canso de extrañarte, de pensarte, de sentir tantas cosas cuando miro tu nombre, tu cara, tu cuerpo, de sentir paz cuando escucho tu voz. Y aunque no siempre es fácil, cada día contigo confirma que todo vale la pena. Gracias por llegar a mi vida, por quedarte a pesar de mis defectos, por hacerme sentir amado, incluso desde la distancia, siento el calor que me brinda tu amor. Gracias por enseñarme que el amor también puede ser paciencia, esperanza y ganas de luchar por lo que sentimos. Cuando cierro los ojos imagino el momento en que ya no tengamos que despedirnos cuando la distancia solo sea un recuerdo y pueda abrazarte todo lo que hoy extraño. Sé que ese día llegará y hará que todo el tiempo que hemos pasado lejos valdrán aún más la pena. Porque amar así, aunque a veces duela, es la cosa más linda que me ha pasado en mi vida. Te amo, hoy, a la distancia...\n\nY por cada día que nos espera juntos.",
     firma: "Tu futuro esposo",
     fecha: "13 de marzo de 2026"
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   renderGrid();
 
-  // ── ESTRELLAS ──
+  // ── NOTAS MUSICALES ──
   const canvas = document.getElementById('estrellas');
   const ctx = canvas.getContext('2d');
 
@@ -171,57 +171,59 @@ document.addEventListener('DOMContentLoaded', () => {
     canvas.height = window.innerHeight;
   }
   redimensionar();
-  window.addEventListener('resize', () => { redimensionar(); crearEstrellas(); });
+  window.addEventListener('resize', () => { redimensionar(); crearNotas(); });
 
-  let estrellas = [];
+  const simbolos = ['♩', '♪', '♫', '♬', '𝄞', '𝄢'];
+  let notas = [];
 
-  function crearEstrellas() {
-    estrellas = [];
-    const cantidad = Math.floor((canvas.width * canvas.height) / 4000);
+  function nuevaNota(random = false) {
+    const size = Math.random() * 28 + 16;
+    return {
+      x: Math.random() * canvas.width,
+      y: random ? Math.random() * canvas.height : -40,
+      size,
+      simbolo: simbolos[Math.floor(Math.random() * simbolos.length)],
+      velocidadY: Math.random() * 0.5 + 0.2,
+      rotacion: (Math.random() - 0.5) * 0.02,
+      angulo: Math.random() * Math.PI * 2,
+      opacidad: Math.random() * 0.35 + 0.2,
+      oscilacion: Math.random() * 0.008 + 0.002,
+      amplitud: Math.random() * 30 + 10,
+      tiempo: Math.random() * 100
+    };
+  }
+
+  function crearNotas() {
+    notas = [];
+    const cantidad = Math.floor(canvas.width / 35);
     for (let i = 0; i < cantidad; i++) {
-      estrellas.push({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        r: Math.random() * 1.5 + 0.2,
-        opacidad: Math.random(),
-        velocidad: Math.random() * 0.02 + 0.005,
-        fase: Math.random() * Math.PI * 2
-      });
-    }
-    for (let i = 0; i < 18; i++) {
-      estrellas.push({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height * 0.7,
-        r: Math.random() * 2 + 1.5,
-        opacidad: Math.random() * 0.5 + 0.5,
-        velocidad: Math.random() * 0.015 + 0.003,
-        fase: Math.random() * Math.PI * 2,
-        especial: true
-      });
+      notas.push(nuevaNota(true));
     }
   }
 
-  let tiempo = 0;
-
-  function dibujarEstrellas() {
+  function animarNotas() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    tiempo += 0.01;
-    estrellas.forEach(s => {
-      const op = s.opacidad * (0.5 + 0.5 * Math.sin(tiempo * s.velocidad * 60 + s.fase));
-      ctx.beginPath();
-      ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(255,255,255,${op})`;
-      ctx.fill();
-      if (s.especial) {
-        ctx.beginPath();
-        ctx.arc(s.x, s.y, s.r * 3, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255,240,180,${op * 0.08})`;
-        ctx.fill();
+    notas.forEach((n, i) => {
+      n.tiempo += 1;
+      n.y += n.velocidadY;
+      n.angulo += n.rotacion;
+      const offsetX = Math.sin(n.tiempo * n.oscilacion) * n.amplitud;
+      ctx.save();
+      ctx.globalAlpha = n.opacidad;
+      ctx.translate(n.x + offsetX, n.y);
+      ctx.rotate(n.angulo);
+      ctx.font = `${n.size}px serif`;
+      ctx.fillStyle = '#ffe8a0';
+      ctx.fillText(n.simbolo, 0, 0);
+      ctx.restore();
+      if (n.y > canvas.height + 50) {
+        notas[i] = nuevaNota(false);
+        notas[i].x = Math.random() * canvas.width;
       }
     });
-    requestAnimationFrame(dibujarEstrellas);
+    requestAnimationFrame(animarNotas);
   }
 
-  crearEstrellas();
-  dibujarEstrellas();
+  crearNotas();
+  animarNotas();
 });
