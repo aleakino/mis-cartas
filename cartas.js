@@ -70,6 +70,15 @@ const cartas = [
     cuerpo: "El día de hoy me siento como un basurero, saber que te he hecho sentir incomoda los ultimos dias me hace sentir fatal, realmente jamas sera mi intencion hacerte daño, no te escribo esto para justificarme, al igual que el amor que tengo por ti no puedo expresarlo con palabras, tampoco puedo expresar lo arrepentido que estoy por haberte hecho sentir asi, solo quiero que sepas que te amo mucho y que no quiero hacerte daño, lo ultimo que quiero es eso, see que me perdonas por lo que hice, tengo que dar lo mejor de mi, no volvera a pasar, no quiero que te sientas asi por mi culpa, quiero que te sientas feliz, amada y segura conmigo, quiero ser el hombre que mereces, el hombre que te haga sentir orgullosa de tenerme a su lado, el hombre que te haga sentir amada y valorada cada dia de tu vida, el hombre que te cuide y te proteja siempre, el hombre que te haga sentir feliz y completa, ese es el hombre que quiero ser para ti, ese es el hombre que soy para ti, ese es el hombre que siempre sere para ti, ese es el hombre que siempre estare para ti. Se que con palabras no puedo arreglar lo que hice, pero quiero que sepas que estoy dispuesto a hacer lo que sea necesario para demostrarte que te amo.\n\nTambien quiero darte las gracias por perdonarme, cada dia que pasa me dio cuenta de lo afortunado que soy de tener a alguien tan comprensiva y amorosa como tu, pero a la vez tengo miedo de perderte, tengo miedo de no este a la altura de lo que mereces, por eso estos problemas no los tomo a ligera, trabajare en mi mismo para ser mejor cada dia.\n\nTe amo mucho y decirlo es muy poco para expresar todo lo que siento por ti. Pero ni si quiera el universo entero podria contener todo el amor que siento por ti.",
     firma: "Javier",
     fecha: "14 de marzo de 2026"
+  },
+{
+    id: "8",
+    color: "lavender",
+    para: "Mi futura esposa",
+    titulo: "Te extraño de otra manera",
+    cuerpo: "No te extraño porque no hablemos — hablamos mucho, y eso me alegra el alma. Te extraño de otra manera, de esa que duele bonito. Te extraño cuando dices buenas noches y yo sé que del otro lado estás a punto de dormirte sin que yo pueda estar ahí. Te extraño en el momento exacto en que cierro los ojos y pienso en lo bonito que sería despertar viéndote a ti — tu carita, tu manera de estar dormida, ese momento en que el mundo todavía está en silencio y tú eres lo primero que veo. Eso es lo que más deseo: no algo grande ni extraordinario. Solo eso — dormirme sabiendo que estás cerca, y abrir los ojos y encontrarte ahí.\n\nDicen que se ama con el corazón, pero yo no quiero amarte solo con él. El corazón es frágil — late, sí, pero también se cansa, también falla, y un día dejará de hacerlo. Lo que siento por ti es demasiado grande para caber ahí.\n\nTe amo con el alma. Con esa parte que no envejece, que no se rompe, que no tiene fecha de vencimiento. Te amo con algo que existirá incluso cuando yo ya no esté — cuando este cuerpo se haya ido y solo quede lo que fui. Ahí, en eso que permanece, también estarás tú.",
+    firma: "Javier",
+    fecha: "15 de marzo de 2026"
   }
 ];
 
