@@ -79,6 +79,15 @@ const cartas = [
     cuerpo: "No te extraño porque no hablemos — hablamos mucho, y eso me alegra el alma. Te extraño de otra manera, de esa que duele bonito. Te extraño cuando dices buenas noches y yo sé que del otro lado estás a punto de dormirte sin que yo pueda estar ahí. Te extraño en el momento exacto en que cierro los ojos y pienso en lo bonito que sería despertar viéndote a ti — tu carita, tu manera de estar dormida, ese momento en que el mundo todavía está en silencio y tú eres lo primero que veo. Eso es lo que más deseo: no algo grande ni extraordinario. Solo eso — dormirme sabiendo que estás cerca, y abrir los ojos y encontrarte ahí.\n\nDicen que se ama con el corazón, pero yo no quiero amarte solo con él. El corazón es frágil — late, sí, pero también se cansa, también falla, y un día dejará de hacerlo. Lo que siento por ti es demasiado grande para caber ahí.\n\nTe amo con el alma. Con esa parte que no envejece, que no se rompe, que no tiene fecha de vencimiento. Te amo con algo que existirá incluso cuando yo ya no esté — cuando este cuerpo se haya ido y solo quede lo que fui. Ahí, en eso que permanece, también estarás tú.",
     firma: "Javier",
     fecha: "15 de marzo de 2026"
+  },
+    {
+    id: "8",
+    color: "mint",
+    para: "Mi futura esposa",
+    titulo: "Tiempo",
+    cuerpo: "Aunque los dias siempre tienen la misma cantidad de horas, contigo ese tiempo se siente diferente, se siente mas lento, mas dulce, porque cada minuto contigo puede convertirse en un recuerdo eterno, algo que permanece incluso cuando el tiempo siga avanzando.\n\nPor eso he comprendido que lo más hermoso de amarte es que lo cotidiano se tranforma en un recuerdo que amare al infinito.",
+    firma: "Tu futuro esposo",
+    fecha: "16 de marzo de 2026"
   }
 ];
 
