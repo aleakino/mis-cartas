@@ -88,6 +88,15 @@ const cartas = [
     cuerpo: "Aunque los dias siempre tienen la misma cantidad de horas, contigo ese tiempo se siente diferente, se siente mas lento, mas dulce, porque cada minuto contigo puede convertirse en un recuerdo eterno, algo que permanece incluso cuando el tiempo siga avanzando.\n\nPor eso he comprendido que lo más hermoso de amarte es que lo cotidiano se tranforma en un recuerdo que amare al infinito.",
     firma: "Tu futuro esposo",
     fecha: "16 de marzo de 2026"
+  },
+    {
+    id: "10",
+    color: "lavender",
+    para: "Mi futura esposa",
+    titulo: "Si pudiera",
+    cuerpo: "Y si pudiera traerte a mi lado con tan solo hecho de pensarte, soñarte e imaginarte, creeme que entonces no me faltarias ni un solo dia, ni un solo instante.\n\nPorque podras estar lejos de mis ojos, pero no de mis sentimientos, porque lo que siento por ti es algo tan grande que ni la distancia ni el tiempo pueden romper.",
+    firma: "Tu futuro esposo",
+    fecha: "17 de marzo de 2026"
   }
 ];
 
