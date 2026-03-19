@@ -97,6 +97,15 @@ const cartas = [
     cuerpo: "Y si pudiera traerte a mi lado con tan solo hecho de pensarte, soñarte e imaginarte, creeme que entonces no me faltarias ni un solo dia, ni un solo instante.\n\nPorque podras estar lejos de mis ojos, pero no de mis sentimientos, porque lo que siento por ti es algo tan grande que ni la distancia ni el tiempo pueden romper.",
     firma: "Tu futuro esposo",
     fecha: "17 de marzo de 2026"
+  },
+    {
+    id: "11",
+    color: "amber",
+    para: "Mi futura esposa",
+    titulo: "Tamo",
+    cuerpo: "No creas que esto es pasajero o un sentimiento superficial, porque mi plan es que nos queramos hasta el infinito y más allá. Es decir, que quiero todo: la salud y la enfermedad, acompañarte en tus días buenos y en los que quieras solo llorar.\n\nContigo me veo siempre venciendo la adversidad, encontrando en tu compañía amor y calidez.\n\nEs decir, que eres mi cielo y me das paz; es decir, que eres mi universo, mi evangelin y mi mar.\n\nEres todo lo que he soñado, todo lo que anhelo cuidar, y la persona que me recuerda que aun hay cosas bellas en el mundo.\n\nTe amo tanto que desborda mi corazón.",
+    firma: "Tu futuro esposo",
+    fecha: "19 de marzo de 2026"
   }
 ];
 
