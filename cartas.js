@@ -106,6 +106,15 @@ const cartas = [
     cuerpo: "No creas que esto es pasajero o un sentimiento superficial, porque mi plan es que nos queramos hasta el infinito y más allá. Es decir, que quiero todo: la salud y la enfermedad, acompañarte en tus días buenos y en los que quieras solo llorar.\n\nContigo me veo siempre venciendo la adversidad, encontrando en tu compañía amor y calidez.\n\nEs decir, que eres mi cielo y me das paz; es decir, que eres mi universo, mi evangelin y mi mar.\n\nEres todo lo que he soñado, todo lo que anhelo cuidar, y la persona que me recuerda que aun hay cosas bellas en el mundo.\n\nTe amo tanto que desborda mi corazón.",
     firma: "Tu futuro esposo",
     fecha: "19 de marzo de 2026"
+  },
+    {
+    id: "12",
+    color: "coral",
+    para: "El amor de mi vida",
+    titulo: "Casualidad o destino",
+    cuerpo: "Dicen que la vida esta hecha de casualidades, pero la tuya a sido las más perfecta de todas.\n\nNo te busqué, y aun así llegaste justo cuando mi alma pedía a gritos algo tan hermoso como tú. No eras parte de mis planes, y sin embargo, te covertiste en mi destino.\n\nHoy entiendo que no fue un azar cualquiera, sino la respuesta más hermosa que la vida me pudo regalar.\n\nPorque aunque fisicamente no estemos cerca, nuestros corazones están unidos.\n\nTodos los dias recuerdo que algo que parecía imposible, ahora tenemos la opurtunidad de hacerlo eterno juntos.\n\nTe amo con cada atomo de mi ser.",
+    firma: "Javier",
+    fecha: "20 de marzo de 2026"
   }
 ];
 
