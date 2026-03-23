@@ -115,6 +115,15 @@ const cartas = [
     cuerpo: "Dicen que la vida esta hecha de casualidades, pero la tuya a sido las más perfecta de todas.\n\nNo te busqué, y aun así llegaste justo cuando mi alma pedía a gritos algo tan hermoso como tú. No eras parte de mis planes, y sin embargo, te covertiste en mi destino.\n\nHoy entiendo que no fue un azar cualquiera, sino la respuesta más hermosa que la vida me pudo regalar.\n\nPorque aunque fisicamente no estemos cerca, nuestros corazones están unidos.\n\nTodos los dias recuerdo que algo que parecía imposible, ahora tenemos la opurtunidad de hacerlo eterno juntos.\n\nTe amo con cada atomo de mi ser.",
     firma: "Javier",
     fecha: "20 de marzo de 2026"
+  },
+    {
+    id: "13",
+    color: "sky",
+    para: "Mi futura esposa",
+    titulo: "Gracias",
+    cuerpo: "Me encontraste con heridas y me estas ayudando a sanar.\n\nYa no me siento solo, porque te volviste mi hogar.\n\nNuestras almas estan unidas para toda la eternidad; eres la única persona con la que quiero estar todo el tiempo.\n\nEres la vida que soñaba, mi media patilla, porque lo que no rompiste, lo estas reparando aunque no sea tu resposabilidad.\n\nTe amo a la distancia, a los kilometros, porque aunque estemos lejos, la vida nos juntara.\n\nEres a quien mas quiero, y ten por seguridad que, si mi corazon palpita es porque te puede amar.",
+    firma: "Javier",
+    fecha: "23 de marzo de 2026"  
   }
 ];
 
