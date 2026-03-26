@@ -124,6 +124,15 @@ const cartas = [
     cuerpo: "Me encontraste con heridas y me estas ayudando a sanar.\n\nYa no me siento solo, porque te volviste mi hogar.\n\nNuestras almas estan unidas para toda la eternidad; eres la única persona con la que quiero estar todo el tiempo.\n\nEres la vida que soñaba, mi media patilla, porque lo que no rompiste, lo estas reparando aunque no sea tu resposabilidad.\n\nTe amo a la distancia, a los kilometros, porque aunque estemos lejos, la vida nos juntara.\n\nEres a quien mas quiero, y ten por seguridad que, si mi corazon palpita es porque te puede amar.",
     firma: "Javier",
     fecha: "23 de marzo de 2026"  
+  },
+  {
+    id: "14",
+    color: "mint",
+    para: "Mi futura esposa",
+    titulo: "Sospecho",
+    cuerpo: "Tengo la sospecha de que tu amor es tan inmenso como el universo, que en tu sonrisa se encuentra la luz de mil estrellas, que en tus labios sembraron un sol, que de ojos tienes dos lunas, y que de tus abrazos calientan el corazon mas frio.\n\nQue el cielo te dio la frescura y el mar te regalo su voz, que el tiempo te quito la prisa, y los rios te hicieron una cancion.\n\nQue la musica te hizo su musa, y que por ti la poesia nacio.\n\nY tambien cuando Dios creo al mundo, fue en ti en quien se inspiro.\n\nPor eso cuando te miro, todo mi mundo se queda en silencio.\n\nPorque en ti se esconde el secreto del amor y la felicidad.",
+    firma: "Javier",
+    fecha: "26 de marzo de 2026"
   }
 ];
 
