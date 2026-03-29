@@ -133,6 +133,15 @@ const cartas = [
     cuerpo: "Tengo la sospecha de que tu amor es tan inmenso como el universo, que en tu sonrisa se encuentra la luz de mil estrellas, que en tus labios sembraron un sol, que de ojos tienes dos lunas, y que de tus abrazos calientan el corazon mas frio.\n\nQue el cielo te dio la frescura y el mar te regalo su voz, que el tiempo te quito la prisa, y los rios te hicieron una cancion.\n\nQue la musica te hizo su musa, y que por ti la poesia nacio.\n\nY tambien cuando Dios creo al mundo, fue en ti en quien se inspiro.\n\nPor eso cuando te miro, todo mi mundo se queda en silencio.\n\nPorque en ti se esconde el secreto del amor y la felicidad.",
     firma: "Javier",
     fecha: "26 de marzo de 2026"
+  },
+  {
+    id: "15",
+    color: "lavender",
+    para: "Mi futura esposa",
+    titulo: "Más sano, más fuerte, más bonito",
+    cuerpo: "Corrígeme cuando me equivoque, dímelo cuando no esté comprendiendo lo que sientes, háblame claro cuando no te este amando en la forma que necesitas, explícame qué te gusta, qué te incomoda y qué esperas de mí, enseñame cómo cuidarte mejor, comó acompañarte en tus días buenos y en los que no lo son tanto, porque no quiero suponer nada ni dejar cabos sueltos entre nosotros, prefiero aprenderte con paciencia, escucharte sin orgullo y mejorar cada día por lo que estamos construyendo, ya que mi intención no es ganar discusiones, sino fortalecer esto que tenemos, hacerlo más sano, más fuerte, más bonito, para que al final podamos mirar atrás y decir que valió la pena elegirnos siempre.",
+    firma: "Javier",
+    fecha: "29 de marzo de 2026"
   }
 ];
 
